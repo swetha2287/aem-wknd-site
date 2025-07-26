@@ -1,0 +1,17 @@
+{
+  "name": "aem-wknd-site",
+  "version": "1.0.0",
+  "description": "AEM site",
+  "main": "cypress.config.js",
+  "scripts": {
+    "teaser": "npx cypress run --spec \"cypress/e2e/teaser\""
+  },
+  "devDependencies": {
+    "cypress": "^14.4.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+   
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
