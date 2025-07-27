@@ -4,7 +4,10 @@
   "description": "AEM site",
   "main": "cypress.config.js",
   "scripts": {
-    "teaser": "npx cypress run --spec \"cypress/e2e/teaser\""
+    "teaser": "npx cypress run --spec \"cypress/e2e/teaser\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run",
+   "build": "echo 'No build step required for this project'"
   },
   "devDependencies": {
     "cypress": "^14.4.0",
