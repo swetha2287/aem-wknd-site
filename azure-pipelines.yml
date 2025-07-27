@@ -15,9 +15,9 @@ steps:
     versionSpec: '20.x'
   displayName: 'Install Node.js'
 
-- task: Npm@1
-  inputs:
-    command: 'ci'
+- script: npm ci
+  displayName: 'Install Dependencies'
+
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(System.DefaultWorkingDirectory)'
